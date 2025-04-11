@@ -6,7 +6,7 @@ import Home from './pages/Home.jsx';
 import Login from './pages/Login.jsx';
 import Cart from './pages/Cart.jsx';
 import ProductDetail from './pages/ProductDetail.jsx';
-import Checkout from './pages/Checkout.jsx';
+import Checkout from './pages/checkout.jsx';
 
 function App() {
   return (
