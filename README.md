@@ -1,4 +1,4 @@
-# 🛍️  React E-Commerce App
+# 🛍️ React E-Commerce App
 
 A responsive e-commerce website built using **React**, **Vite**, and **Context API**.  
 It includes product listings, filtering, cart management, checkout flow, and a mock login system.
@@ -26,6 +26,14 @@ It includes product listings, filtering, cart management, checkout flow, and a m
 - **Axios**
 - **Vite**
 - **Fake Store API**
+
+---
+
+## 🌐 Live Demo
+
+👉 [https://react-ecommerce-dhruv-2sqv.vercel.app](https://react-ecommerce-dhruv-2sqv.vercel.app)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://react-ecommerce-dhruv-2sqv.vercel.app)
 
 ---
 
