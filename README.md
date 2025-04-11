@@ -39,4 +39,12 @@ cd react-ecommerce-dhruv
 npm install
 npm run dev
 
+## 🚀 Live Demo
+
+Check out the deployed version here:  
+👉 [https://react-ecommerce-dhruv-2sqv.vercel.app](https://react-ecommerce-dhruv-2sqv.vercel.app)
+
+[![Vercel Status](https://vercelbadge.vercel.app/api/SharmaDhruv4912/react-ecommerce-dhruv)](https://react-ecommerce-dhruv-2sqv.vercel.app)
+
+
 
