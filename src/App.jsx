@@ -1,22 +1,18 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Header from "./components/header.jsx";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Header from './components/header.jsx';
+import Footer from './components/Footer.jsx';
 
-import Home from './pages/Home'
-import Login from './pages/Login'
-import Cart from './pages/Cart'
-import ProductDetail from './pages/ProductDetail'
-import Checkout from './pages/Checkout'
-import Footer from './components/Footer'
-
-
-
+import Home from './pages/Home.jsx';
+import Login from './pages/Login.jsx';
+import Cart from './pages/Cart.jsx';
+import ProductDetail from './pages/ProductDetail.jsx';
+import Checkout from './pages/Checkout.jsx';
 
 function App() {
   return (
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/checkout" element={<Checkout />} />
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/cart" element={<Cart />} />
@@ -25,7 +21,7 @@ function App() {
       </Routes>
       <Footer />
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;
