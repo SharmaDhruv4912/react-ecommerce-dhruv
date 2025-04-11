@@ -10,9 +10,3 @@
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   margin-top: 10px;
 }
-/* .product-container {
-  display: grid;
-  gap: 25px; /* 👈 more space between cards */
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  margin-top: 10px;
-} */
