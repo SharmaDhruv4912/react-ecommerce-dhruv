@@ -1,33 +1,31 @@
- Dhruv's React E-Commerce App
+# 🛍️  React E-Commerce App
 
-This is a simple e-commerce application built using React, Context API, and Vite.  
-It showcases product listings, filtering, cart management, checkout flow, and JWT-based login.
+A responsive e-commerce website built using **React**, **Vite**, and **Context API**.  
+It includes product listings, filtering, cart management, checkout flow, and a mock login system.
 
-
-
-
+---
 
 ## 🚀 Features
 
-- ✅ User login with JWT (via Fake Store API)
-- ✅ Product listing with category filter
-- ✅ Product detail view with Add to Bag
-- ✅ Cart page with quantity updates, removal, and total
-- ✅ Checkout confirmation popup
-- ✅ Global authentication and cart state with Context API
-- ✅ Responsive layout using custom CSS
-- ✅ Protected routes using React Router v6
+- 🔐 User login with JWT (via Fake Store API)
+- 🛍️ Product listing with category filters
+- 🔎 Product detail view with "Add to Bag"
+- 🛒 Cart page with quantity updates, removal, and total calculation
+- ✅ Checkout summary confirmation
+- 🧠 Global state management with Context API
+- 📱 Responsive layout using custom CSS
+- 🔐 Protected routes with React Router v6
 
 ---
 
 ## 🛠️ Tech Stack
 
-- React
-- React Router v6
-- Context API
-- Axios
-- Vite
-- Fake Store API
+- **React**
+- **React Router v6**
+- **Context API**
+- **Axios**
+- **Vite**
+- **Fake Store API**
 
 ---
 
@@ -38,13 +36,3 @@ git clone https://github.com/SharmaDhruv4912/react-ecommerce-dhruv.git
 cd react-ecommerce-dhruv
 npm install
 npm run dev
-
-## 🚀 Live Demo
-
-Check out the deployed version here:  
-👉 [https://react-ecommerce-dhruv-2sqv.vercel.app](https://react-ecommerce-dhruv-2sqv.vercel.app)
-
-[![Vercel Status](https://vercelbadge.vercel.app/api/SharmaDhruv4912/react-ecommerce-dhruv)](https://react-ecommerce-dhruv-2sqv.vercel.app)
-
-
-
