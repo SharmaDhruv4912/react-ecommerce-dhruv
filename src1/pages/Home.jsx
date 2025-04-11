@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react'
 import ProductCard from '../components/ProductCard'
+import './Home.css'
+
 import {
   getAllProducts,
   getCategories,
@@ -29,6 +31,7 @@ const Home = () => {
   return (
     <div className="container">
       <h2>Products</h2>
+      
 
       <select
         onChange={(e) => setSelectedCategory(e.target.value)}
@@ -40,11 +43,7 @@ const Home = () => {
         ))}
       </select>
 
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fill, minmax(250px, 1fr))',
-        gap: '20px'
-      }}>
+      <div className="product-container">
         {products.map(p => (
           <ProductCard key={p.id} product={p} />
         ))}

@@ -2,7 +2,7 @@ import { createContext, useState } from 'react'
 
 export const BasketContext = createContext()
 
-// helper function to update quantity
+// function to update the quantity
 const updateQuantity = (prev, id, delta) => {
   return prev
     .map(item =>

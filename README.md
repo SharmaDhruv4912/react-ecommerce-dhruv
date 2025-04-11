@@ -33,14 +33,10 @@ It showcases product listings, filtering, cart management, checkout flow, and JW
 
 ## 🧑‍💻 How to Run Locally
 
-1. Clone the repo:
 ```bash
-
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-2. Install dependencies:
+git clone https://github.com/SharmaDhruv4912/react-ecommerce-dhruv.git
+cd react-ecommerce-dhruv
 npm install
-
-3.Start dev server:
 npm run dev
 
 

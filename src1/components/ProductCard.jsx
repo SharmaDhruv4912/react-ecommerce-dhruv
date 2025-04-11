@@ -3,18 +3,25 @@ import { Link } from 'react-router-dom'
 const ProductCard = ({ product }) => {
   return (
     <div style={{
-      background: '#fff',
-      border: '1px solid #ddd',
-      borderRadius: '10px',
-      padding: '15px',
+      border: '1px solid #ccc',
+      borderRadius: '8px',
+      padding: '10px',
       textAlign: 'center',
-      boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
-      transition: '0.2s',
+      background: '#fff'
     }}>
-      <Link to={`/product/${product.id}`} style={{ color: 'inherit' }}>
-        <img src={product.image} alt={product.title} style={{ height: '150px', objectFit: 'contain', marginBottom: '10px' }} />
-        <h4 style={{ fontSize: '16px', minHeight: '48px' }}>{product.title.slice(0, 50)}...</h4>
-        <p style={{ color: '#28a745', fontWeight: 'bold' }}>₹{product.price}</p>
+      <Link to={`/product/${product.id}`} style={{ textDecoration: 'none', color: 'black' }}>
+        <img
+          src={product.image}
+          alt={product.title}
+          style={{
+            height: '160px',
+            objectFit: 'contain',
+            marginBottom: '10px',
+            maxWidth: '100%'
+          }}
+        />
+        <h4 style={{ fontSize: '14px', height: '40px', overflow: 'hidden' }}>{product.title}</h4>
+        <p style={{ fontWeight: 'bold' }}>₹{product.price}</p>
       </Link>
     </div>
   )
