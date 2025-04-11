@@ -6,8 +6,8 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, 'src1'),
+      '@': path.resolve(__dirname, 'src'),
     },
   },
-  root: '.', // Keep this if your project root is current directory
+  root: '.', 
 })
